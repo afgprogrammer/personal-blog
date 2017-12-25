@@ -1,7 +1,7 @@
 /*****************
 *
-*    Theme Name: ''
-*    Theme URL: ''
+*    Theme Name: 'prsonal site'
+*    Theme URL: 'http://mohammadrahmani.com'
 *    Author: Mohammad Rahmani
 *    Author URL: http://mohammadrahmani.com
 *
@@ -51,6 +51,9 @@
 body {background: #f1f5f8 none !important;padding: 0;margin: 0;font-size: 12px;line-height: 30px !important;color: #333;direction: rtl;text-align: right;font-family: 'IRANSans', serif !important;overflow-x: hidden !important;}
 ul {list-style: none;}
 a:hover, a:focus {text-decoration: none;}
+.no-margin {margin: 0 !important;}
+.no-padding {padding: 0 !important;}
+.shadow {box-shadow: 0 10px 10px 0.3px rgba(211, 206, 206, 0.40);-webkit-box-shadow: 0 10px 10px 0.3px rgba(211, 206, 206, 0.40);-o-box-shadow: 0 10px 10px 0.3px rgba(211, 206, 206, 0.40);}
 
 /* Spacers */
 .sp200p {height: 200px;margin: 0;padding: 0;display: block;}
@@ -73,17 +76,83 @@ a:hover, a:focus {text-decoration: none;}
 .trans5s {transition: all .5s !important;-webkit-transition: all .5s !important;-o-transition: all .5s !important;}
 .trans2s {transition: all .2s !important;-webkit-transition: all .2s !important;-o-transition: all .2s !important;}
 
+/* Custom */
+.input {border: 1px solid #ccc !important;height: 60px;border-radius: 50px;}
+.input:focus {border-color: #100D7E !important;box-shadow: none;}
 
 /* Style For Class And Id */
+#sub-header {height: 500px;width: 100%;background: linear-gradient(120deg, #100D7E, #9E39FF) !important;}
+#header {height: 80px;border: none;background: rgba(255, 255, 255, 0.10);border: 1px solid rgba(255,255,255,0.03);font-size: 15px;}
+#header .nav-link, .navbar-brand {color: #fff;font-weight: 400;transition: all .2s !important;-webkit-transition: all .2s !important;-o-transition: all .2s !important;}
+#header .nav-link:hover {color: rgb(28, 23, 161);}
+.navbar-brand {position: absolute;left: 50px;top:20px;}
+.navbar-toggler {border: none;padding: 15px;}
+.collapse.show {background: rgba(255, 255, 255, 0.20);border-radius: 5px;margin: 10px 0 0 0;}
+.collapse.show  ul {padding: 0;}
+.collapse.show  ul a {padding: 10px;}
+.collapse.show a:hover {background: rgba(255, 255, 255, 100);display: block;color: #333 !important;}
+
+.container-fluid {padding: 90px;}
+.content-right .column {margin-bottom: 40px;background: #fff;padding: 20px;box-shadow: 0 10px 10px 0.3px rgba(211, 206, 206, 0.40);}
+.column .column-header h4{font-weight: 300;font-size: 20px;}
+.column .column-body {padding: 20px 10px;font-size: 17px;font-weight: 300;}
+.column.social  ul, .column.tags ul, .column.archive ul {padding: 0;margin: 0;}
+.column.social .column-body ul li, .column.tags .column-body ul li {display: inline-block;margin: 5px;}
+.column.social .column-body li a {display: block;width: 60px;height: 60px;text-align: center;line-height: 62px;color: #fff;background: #333;border: 1px solid transparent;border-radius: 20px;transition: all .5s !important;-webkit-transition: all .5s !important;-o-transition: all .5s !important;}
+.column.social .column-body li a.facebook {background: #100D7E;}
+.column.social .column-body li a.instagram {background: linear-gradient(284deg, #ff512f, #dd2476);}
+.column.social .column-body li a.telegram {background: #00aeff;}
+.column.social .column-body li a.facebook:hover {background: #fff;color: #100D7E;border-color: #ccc;}
+.column.social .column-body li a.instagram:hover {background: #fff;color: #ff512f;border-color: #ccc;}
+.column.social .column-body li a.telegram:hover {background: #fff;color: #00aeff;border-color: #ccc;}
+.column.tags .column-body ul li a.tag {display: block;background: #fff;border: 1px solid #dcdcdc;padding: 5px 10px;border-radius: 10px;color: #333;transition: all .5s !important;-webkit-transition: all .5s !important;-o-transition: all .5s !important;}
+.column.tags .column-body ul li a.tag:hover {background: #100D7E;color: #fff;border-color: transparent;}
+.column.about-me {background: transparent !important;box-shadow: none;padding: 0;}
+.column.about-me .column-body {padding: 0;}
+.column.about-me .column-body .figure {background: #fff;}
+.column.about-me .column-body .figure .figure-caption {padding: 20px;}
+.column.about-me .column-body .figure {padding: 0;margin: 0;}
+.column.archive {background: transparent;box-shadow: none;}
+.column.archive .column-body ul {position: relative;}
+.column.archive .column-body ul::before {content: " ";position: absolute;right: -10px;height: 100%;width: 5px;background: #dcdcdc;border-radius: 5px;}
+.column.archive .column-body ul li {margin: 10px 5px;position: relative;}
+.column.archive .column-body ul li::before {content: " ";position: absolute;right: -17px;top: 10px;height: 10px;width: 10px;background: #333;border-radius: 50px;border: 2px solid #fff;transition: all .5s !important;-webkit-transition: all .5s !important;-o-transition: all .5s !important;}
+.column.archive .column-body ul li:hover::before {background: #ff512f;}
+.column.archive .column-body ul li a {color: #333;font-size: 15px;font-weight: 100;transition: all .2s !important;-webkit-transition: all .2s !important;-o-transition: all .2s !important;}
+.column.archive .column-body ul li:hover a  {color: #ff512f;}
+
+.content-left .post {margin-bottom: 50px;background: #fff;box-shadow: 0 10px 10px 0.3px rgba(211, 206, 206, 0.40);padding: 0 !important;}
+.post .figure {margin: 0;}
+.post .figure img.rounded, .post.rounded {border-radius: 10px 10px 0 0 !important;}
+.post .post-img {position: relative;max-height: 400px;height: 100%;overflow: hidden !important;}
+.post .post-img .post-category {position: absolute;background: #fff;padding: 5px 10px;top: 10px;font-size: 14px;border-radius: 5px 0 0 5px;}
+.post .post-img .post-category:hover {padding: 5px 30px 5px 10px;background: #6B29D1;color: #fff !important;}
+.post .post-img .post-category:hover a {color: #fff !important;}
+.post .post-img .post-date {position: absolute;width: 100%;bottom: 10px;left: 0;color: #fff;font-weight: 500;background: rgba(255, 255, 255, 0.10);border: 1px solid rgba(255,255,255,0.03);padding: 5px;border-radius: 0 5px 0 0;}
+.post .figure-caption {padding: 20px;}
+.post .post-info-header h2 {font-size: 30px;font-weight: 200;margin: 20px 0;}
+.post .post-info-header h2 a:hover {color: rgb(52, 45, 243) !important;}
+.post .post-info-header p {line-height: 30px;font-size: 16px;font-weight: 300;}
+.post .post-info-footer a.more {position: relative;left: 20px;font-weight: 300;color: rgb(52, 45, 243);}
+.post .post-info-footer a.more span {position: relative;top: 1px;right: 3px;}
+.post .post-info-footer a.more:hover {font-weight: 500;color: rgb(17, 11, 184);}
+.post .post-info-footer a.more:hover span {right: 10px;}
+.more-post {padding: 20px;font-size: 25px;}
+
+#footer {background: #201C38;padding: 20px;font-size: 15px;font-weight: 100;text-align: center;}
 
 
 /* Style in Tablet Resolotion */
 @media screen and (max-width: 1024px){
-	
+	.container-fluid {padding: 50px 20px !important;}
 }
 
 
 /* Style in Mobile Resolotion */
 @media screen and (max-width: 360px) {
-
+    .container-fluid {padding: 50px 5px !important;}
+    #sub-header h1 {font-size: 50px;}
+    .post .post-info-header h2 {font-size: 20px;font-weight: 500;}
+    .post .post-info-header p {line-height: 25px;font-size: 14px;}
+    .navbar-brand {left: 20px;}
 }
