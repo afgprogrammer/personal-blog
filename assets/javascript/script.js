@@ -13,7 +13,7 @@ $(document).ready(function () {
 
     $(this).scroll(function () {
         let scroll = $(this).scrollTop();
-        if ($(this).scrollTop() >= 400) {
+        if ($(this).scrollTop() >= 300) {
             navbar_default.css({
                 "background": "linear-gradient(120deg, #100D7E, #9E39FF)",
                 "transition": "all 5s"
@@ -26,7 +26,7 @@ $(document).ready(function () {
             }
 
             scrollCount = scroll;
-        } else if ($(this).scrollTop() <= 400) {
+        } else if ($(this).scrollTop() <= 300) {
             navbar_default.css({ "background": "rgba(255, 255, 255, 0.10)", "border": "1px solid rgba(255,255,255,0.03)"});
         }
     });
