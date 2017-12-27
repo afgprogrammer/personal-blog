@@ -93,7 +93,8 @@ button:focus {outline: none !important;}
 #sub-header {height: 500px;width: 100%;background: linear-gradient(120deg, #100D7E, #9E39FF) !important;}
 #header {height: 80px;border: none;background: rgba(255, 255, 255, 0.10);border: 1px solid rgba(255,255,255,0.03);font-size: 15px;}
 #header .nav-link, .navbar-brand {color: #fff;font-weight: 400;transition: all .2s !important;-webkit-transition: all .2s !important;-o-transition: all .2s !important;}
-#header .nav-link:hover {color: rgb(28, 23, 161);}
+#header .nav-link:hover {color: #333;}
+#sub-header .sub-title {background: yellow;padding: 10px 20px;}
 .navbar-brand {position: absolute;left: 50px;top:20px;}
 .navbar-toggler {border: none;padding: 15px;}
 .collapse.show {background: rgba(255, 255, 255, 0.20);border-radius: 5px;margin: 10px 0 0 0;}
