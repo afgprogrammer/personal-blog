@@ -1,4 +1,4 @@
-#sub-header {height: 300px;background: #100D7E !important;}
+#sub-header {height: 300px;background: linear-gradient(240deg, #3E396B 50%, #201C38 100%) !important;}
 #show-post {background: #fff;padding: 20px;width: 100%;position: relative;top: -150px;border-radius: 20px 20px 0 0;}
 #show-post .post {box-shadow: none;margin: 0;}
 #show-post .post-title {font-weight: 300;font-size: 30px;}
